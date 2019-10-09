@@ -1,24 +1,22 @@
 import java.util.Scanner;
-public class E9t4 {
+public class Ejercicio5 {
   public static void main(String args[]) {
     Scanner x = new Scanner(System.in);
     
-    System.out.println("Vamos a resolver una ecuacion de segundo grado");
+    System.out.println("Este programa resuelve ecuaciones de primer grado del tipo ax + b = 0");
     
     System.out.println("Introduce el valor de a: ");
     int a = x.nextInt();
     System.out.println("Ahora introduce el valor de b: ");
     int b = x.nextInt();
-    System.out.println("Introdcue el valor de x: ");
-    int c = x.nextInt();
     
-    int operacion = (a * c) / b;
+    int operacion = -b/a;
     
     
     if (( a == 0 ) || ( b == 0 )) {
       System.out.print("No hay solucion");
     } else {
-      System.out.print("El resultado es:  " + operacion );
+      System.out.print("x = " + operacion );
     }
       
     

@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class E6t4 {
+public class Ejercicio6 {
   public static void main(String args[]) {
     Scanner x = new Scanner(System.in);
     
@@ -10,10 +10,7 @@ public class E6t4 {
     double g = 9.81;
     double numero = Math.sqrt(2 * altura/g);
     
-    
-    
-    
-      System.out.print("t = " + numero );
+    System.out.print("t = " + numero );
     }
   }
 
