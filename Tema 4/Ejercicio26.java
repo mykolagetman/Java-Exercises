@@ -23,7 +23,7 @@ public class Ejercicio26 {
       precioEntrada = 5;
     }
     
-    if ((entrada == 2) && dia.equals("jueves")) {
+    if ((entrada % 2 == 0) && dia.equals("jueves")) {
       precioEntrada = 11;
     }
     
@@ -39,7 +39,6 @@ public class Ejercicio26 {
       System.out.println("Aqui estan sus entradas, gracias");
       System.out.printf("Numero de entradas %16.2s \n", entrada);
       System.out.printf("Precio por cada entrada %14.2f$ \n", precioEntrada);
-      //System.out.printf("Precio total sin descuento %14.2f$ \n", total);
       System.out.printf("Descuento %28.2f$ \n", descuento);
       System.out.printf("Precio total con descuento %12.2f$ \n", totalPagar);
       break;
@@ -51,6 +50,7 @@ public class Ejercicio26 {
       System.out.printf("Precio total sin descuento %12.2f$ \n", total);
     }
       
+        
   }
 }
       
