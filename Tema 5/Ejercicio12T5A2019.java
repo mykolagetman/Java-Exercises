@@ -8,7 +8,7 @@ public class Ejercicio12T5A2019 {
     int positivo = 0;
     int negativo = 0;
     
-    System.out.println("Introduce 10 numeros y te dire cuales sn negativos y positivos: ");
+    System.out.println("Introduce 10 numeros y te dire cuales son negativos y positivos: ");
         
         while (i < 10) {
           System.out.print("Introduce un numero: ");
