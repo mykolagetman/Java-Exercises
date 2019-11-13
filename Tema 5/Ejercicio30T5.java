@@ -25,56 +25,57 @@ public class Ejercicio30T5 {
     
      switch(dia1){
       case 1:
-   nombreDia1 = "Lunes";
+      nombreDia1 = "Lunes";
       case 2:
-   nombreDia1 = "Martes";
+      nombreDia1 = "Martes";
       case 3:
-   nombreDia1 = "Miercoles";
+      nombreDia1 = "Miercoles";
       case 4:
-   nombreDia1 = "Jueves";
+      nombreDia1 = "Jueves";
       case 5:
-   nombreDia1 = "Viernes";
+      nombreDia1 = "Viernes";
       case 6:
-   nombreDia1 = "Sabado";
+      nombreDia1 = "Sabado";
       case 7:
-   nombreDia1 = "Domingo";
+      nombreDia1 = "Domingo";
     }
     
     switch(dia2){
       case 1:
-   nombreDia2 = "Lunes";
+      nombreDia2 = "Lunes";
       case 2:
-   nombreDia2 = "Martes";
+      nombreDia2 = "Martes";
       case 3:
-   nombreDia2 = "Miercoles";
+      nombreDia2 = "Miercoles";
       case 4:
-   nombreDia2 = "Jueves";
+      nombreDia2 = "Jueves";
       case 5:
-   nombreDia2 = "Viernes";
+      nombreDia2 = "Viernes";
       case 6:
-   nombreDia2 = "Sabado";
+      nombreDia2 = "Sabado";
       case 7:
-   nombreDia2 = "Domingo";
+      nombreDia2 = "Domingo";
     } 
     
     hora = hora1;
     
     while(distintos == false){
       if(hora == 24){
-  dia1++;
-  hora = 1;
+       dia1++;
+       hora = 1;
       }
       if(dia1 == dia2 && hora == hora2){
-  distintos = true;
+         distintos = true;
       }
-      hora++;
-      horasTranscurridas++;
+        hora++;
+        horasTranscurridas++;
     
     
     System.out.println("Entre las " + hora1 + ":00 del " + nombreDia1 + " y las " + hora2 + ":00 del " + nombreDia2 + " han transcurrido " + horasTranscurridas + " horas.");
    }
  }
-  
 }
+  
+
 
  
