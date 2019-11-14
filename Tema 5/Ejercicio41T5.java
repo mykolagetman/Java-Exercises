@@ -4,16 +4,15 @@ public class Ejercicio41T5 {
     Scanner x = new Scanner(System.in);
     
     int numero;
-    //int aux;
+    int aux;
     int digito = 0;
     int par = 0;
     int impar = 0;
     
     System.out.print("Introduce un numero entero: ");
     numero = x.nextInt();
-    x.nextLine();
     
-    //aux = numero;
+    aux = numero;
     
     while(numero > 0) {
       digito = numero % 10;
@@ -25,6 +24,6 @@ public class Ejercicio41T5 {
         impar++;
       }
     }
-    System.out.println("El " + numero + " contiene " + par + " digitos pares y " + impar + " digitos impares");
+    System.out.println("El " + aux + " contiene " + par + " digitos pares y " + impar + " digitos impares");
   }
 }
